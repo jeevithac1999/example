@@ -48,6 +48,29 @@ body {
     padding: 0.5% 5%;
   }
 }
+.book-room-l {
+  color: rgb(255, 255, 255);
+  /* font-size: 1rem; */
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: #ff0000;
+  /* border: 2px rgb(38, 149, 163) solid; */
+  font-family: ABeeZee, sans-serif;
+  
+}
+.book-room-l:hover {
+  color: #ff0000;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black !important;
+}
+
+
+@media (min-width: 768px) {
+  .book-room-l {
+    font-size: 1.4rem;
+    padding: 0.5% 5%;
+  }
+}
 .big-img-container {
   padding: 10% 0;
 }

@@ -44,12 +44,7 @@ class Landing extends Component {
 
     const userLink = (
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <Link to="/profile" className="nav-link">
-          {this.state.first_name}'s 
-          Profile
-          </Link>
-        </li>
+        
         <li className="nav-item">
           <Link to="/book" className="nav-link">
             Book
@@ -59,6 +54,12 @@ class Landing extends Component {
           <a href="/#" onClick={this.logOut.bind(this)} className="nav-link">
             Logout
           </a>
+        </li>
+        <li className="nav-item">
+          <em className="nav-link">
+          {this.state.first_name}
+          {/* Profile */}
+          </em>
         </li>
       </ul>
     )

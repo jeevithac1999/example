@@ -12,7 +12,7 @@ const Main =()=> {
             If you're looking for meeting hall
             {/* <i className="fas fa-pizza-slice pizza-slice"></i> */}
           </p>
-          <Link to="/booking" className="book-room-btn">Book a Hall
+          <Link to="/booking" className="book-room-l">Book a Hall
           </Link>
       
         </Col>
